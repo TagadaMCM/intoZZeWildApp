@@ -1,0 +1,73 @@
+.places-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.mat-expansion-panel-header-title {
+    font-family: "bungee";
+    color: #fff;
+}
+
+
+.button-place {
+    width: 100%;
+    height: auto;
+    font-family: "bungee";
+    color: #fff;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border-radius: 13px;
+    margin-top: 20px;
+}
+
+.easy {
+    background-color: #739E6C;
+}
+
+.medium {
+    background-color: #E89B55;
+}
+
+.hard {
+    background-color: #CC4444;
+}
+
+.white-round {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-right: 14px;
+}
+
+.easy-font {
+    color: #739E6C;
+}
+
+.medium-font {
+    color: #E89B55;
+}
+
+.hard-font {
+    color: #CC4444;
+}
+
+::ng-deep.mat-expansion-indicator::after {
+    color: #fff !important;
+}
+
+.verif {
+    position: absolute;
+    right: 20px;
+    bottom: 32%;
+}

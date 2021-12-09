@@ -1,0 +1,10 @@
+.img-container {
+    overflow: hidden;
+    height: auto;
+    width: auto;
+}
+
+.logo {
+    width: auto;
+    height: 300px;
+}

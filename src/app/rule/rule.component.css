@@ -1,0 +1,43 @@
+.rule-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.block {
+    margin-top : 10px;
+}
+
+.rule {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.difficulty-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.difficulty {
+    text-align: center;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 7px;
+}
+
+.easy-border {
+    border: solid 7px #739E6C;
+}
+
+.medium-border {
+    border: solid 7px #E89B55;
+}
+
+.hard-border {
+    border: solid 7px #CC4444;
+}

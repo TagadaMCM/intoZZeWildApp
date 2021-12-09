@@ -1,0 +1,49 @@
+mat-icon {
+    font-size: xx-large;
+    height: auto;
+    width: auto;
+}
+
+.home-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75%;
+}
+
+.button-menu {
+    width: 75%;
+    height: auto;
+    font-family: "bungee";
+    color: #fff;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border-radius: 13px;
+}
+
+.rules {
+    background-color: #2D9ECA;
+}
+
+.map {
+    background-color: #03A6B0;
+}
+
+.places {
+    background-color: #066285;
+}
+
+.img-container {
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+}
+
+.logo {
+    object-fit: contain;
+    width: auto;
+    height: 200px;
+}

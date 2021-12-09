@@ -1,0 +1,104 @@
+<app-page-title title="places" number="0"></app-page-title>
+
+<div class="places-list">
+
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelSponsorsOpenState = true"
+                         (closed)="panelSponsorsOpenState = false" style="background-color: rgb(221, 198, 94);">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Sponsors
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button *ngFor="let place of sponsorsPlaces" mat-raised-button class="button-place {{place.level}}" [routerLink]="['/places/', place.id]">
+        <div class="white-round {{place.level}}-font">{{place.id}}</div>
+        Lieu {{place.id}} <ng-container *ngIf="place.found"><mat-icon class="verif">verified</mat-icon></ng-container>
+      </button>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelSportOpenState = true"
+                         (closed)="panelSportOpenState = false" style="background-color: rgb(221, 141, 120);">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Sport
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button *ngFor="let place of sportsPlaces" mat-raised-button class="button-place {{place.level}}" [routerLink]="['/places/', place.id]">
+        <div class="white-round {{place.level}}-font">{{place.id}}</div>
+        Lieu {{place.id}} <ng-container *ngIf="place.found"><mat-icon class="verif">verified</mat-icon></ng-container>
+      </button>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelTransportOpenState = true"
+                         (closed)="panelTransportOpenState = false" style="background-color: rgb(187, 138, 99);">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Transports
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button *ngFor="let place of transportPlaces" mat-raised-button class="button-place {{place.level}}" [routerLink]="['/places/', place.id]">
+        <div class="white-round {{place.level}}-font">{{place.id}}</div>
+        Lieu {{place.id}} <ng-container *ngIf="place.found"><mat-icon class="verif">verified</mat-icon></ng-container>
+      </button>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelEducationOpenState = true"
+                         (closed)="panelEducationOpenState = false" style="background-color: rgb(172, 121, 182);">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Education
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button *ngFor="let place of educationPlaces" mat-raised-button class="button-place {{place.level}}" [routerLink]="['/places/', place.id]">
+        <div class="white-round {{place.level}}-font">{{place.id}}</div>
+        Lieu {{place.id}} <ng-container *ngIf="place.found"><mat-icon class="verif">verified</mat-icon></ng-container>
+      </button>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelEspaceOpenState = true"
+                         (closed)="panelEspaceOpenState = false" style="background-color: rgb(145, 211, 145);">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Espaces verts, places et statues
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button *ngFor="let place of espacePlaces" mat-raised-button class="button-place {{place.level}}" [routerLink]="['/places/', place.id]">
+        <div class="white-round {{place.level}}-font">{{place.id}}</div>
+        Lieu {{place.id}} <ng-container *ngIf="place.found"><mat-icon class="verif">verified</mat-icon></ng-container>
+      </button>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelAssociatifOpenState = true"
+                         (closed)="panelAssociatifOpenState = false" style="background-color: rgb(161, 216, 226);">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Associatif
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button *ngFor="let place of associatifPlaces" mat-raised-button class="button-place {{place.level}}" [routerLink]="['/places/', place.id]">
+        <div class="white-round {{place.level}}-font">{{place.id}}</div>
+        Lieu {{place.id}} <ng-container *ngIf="place.found"><mat-icon class="verif">verified</mat-icon></ng-container>
+      </button>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelCultureOpenState = true"
+                         (closed)="panelCultureOpenState = false" style="background-color: rgb(98, 192, 209);">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Culture
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button *ngFor="let place of culturePlaces" mat-raised-button class="button-place {{place.level}}" [routerLink]="['/places/', place.id]">
+        <div class="white-round {{place.level}}-font">{{place.id}}</div>
+        Lieu {{place.id}} <ng-container *ngIf="place.found"><mat-icon class="verif">verified</mat-icon></ng-container>
+      </button>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelMunicipaliteOpenState = true"
+                         (closed)="panelMunicipaliteOpenState = false" style="background-color: rgb(212, 175, 197);">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Municipalité
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button *ngFor="let place of municipalitePlaces" mat-raised-button class="button-place {{place.level}}" [routerLink]="['/places/', place.id]">
+        <div class="white-round {{place.level}}-font">{{place.id}}</div>
+        Lieu {{place.id}} <ng-container *ngIf="place.found"><mat-icon class="verif">verified</mat-icon></ng-container>
+      </button>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+

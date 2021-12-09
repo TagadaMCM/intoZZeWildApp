@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html {
+    background-color: #b1ced9;
+}
+
+.title {
+    color: #fff;
+    font-family: "bungee";
+}
+
+.rule-title {
+    color: #066285;
+    font-family: "bungee";
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "bungee";
+    src: url(assets/font/Bungee-Regular.ttf) format('truetype');
+}
+
+.mat-checkbox-inner-container {
+    height: 20px !important;
+    width: 20px !important;
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "id": 1,
+    "name": "Lieu 1",
+    "tip": "l'indice pour trouver le lieu 1 !!!",
+    "image": "/assets/data/img/img-place-1.png",
+    "level": "easy",
+    "categoryId": 0
+  },
+  {
+    "id": 2,
+    "name": "Lieu 2",
+    "tip": "/assets/data/hint/default-image.jpeg",
+    "image": "/assets/data/img/img-place-2.png",
+    "level": "medium",
+    "categoryId": 0
+  },
+  {
+    "id": 3,
+    "name": "Lieu 3",
+    "tip": "l'indice pour trouver le lieu 3 !!!",
+    "image": "/assets/data/img/img-place-3.png",
+    "level": "hard",
+    "categoryId": 0
+  },
+  {
+    "id": 4,
+    "name": "Lieu 4",
+    "tip": "l'indice pour trouver le lieu 4 !!!",
+    "image": "/assets/data/img/img-place-4.png",
+    "level": "easy",
+    "categoryId": 0
+  },
+  {
+    "id": 5,
+    "name": "Lieu 5",
+    "tip": "l'indice pour trouver le lieu 5 !!!",
+    "image": "/assets/data/img/img-place-5.png",
+    "level": "medium",
+    "categoryId": 1
+  },
+  {
+    "id": 6,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 1
+  },
+  {
+    "id": 7,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 1
+  },
+  {
+    "id": 8,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 1
+  },
+  {
+    "id": 9,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 1
+  },
+  {
+    "id": 10,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 1
+  },
+  {
+    "id": 11,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 1
+  },
+  {
+    "id": 12,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 2
+  },
+  {
+    "id": 13,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 2
+  },
+  {
+    "id": 14,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 2
+  },
+  {
+    "id": 15,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 2
+  },
+  {
+    "id": 16,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 2
+  },
+  {
+    "id": 17,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 2
+  },
+  {
+    "id": 18,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 2
+  },
+  {
+    "id": 19,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 2
+  },
+  {
+    "id": 20,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 2
+  },
+  {
+    "id": 21,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 2
+  },
+  {
+    "id": 22,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 3
+  },
+  {
+    "id": 23,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 3
+  },
+  {
+    "id": 24,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 3
+  },
+  {
+    "id": 25,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 3
+  },
+  {
+    "id": 26,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 3
+  },
+  {
+    "id": 27,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 3
+  },
+  {
+    "id": 28,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 3
+  },
+  {
+    "id": 29,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 4
+  },
+  {
+    "id": 30,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 4
+  },
+  {
+    "id": 31,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 4
+  },
+  {
+    "id": 32,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 4
+  },
+  {
+    "id": 33,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 4
+  },
+  {
+    "id": 34,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 4
+  },
+  {
+    "id": 35,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 4
+  },
+  {
+    "id": 36,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 4
+  },
+  {
+    "id": 37,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 4
+  },
+  {
+    "id": 38,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 5
+  },
+  {
+    "id": 39,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 5
+  },
+  {
+    "id": 40,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 6
+  },
+  {
+    "id": 41,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 6
+  },
+  {
+    "id": 42,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 6
+  },
+  {
+    "id": 43,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 6
+  },
+  {
+    "id": 44,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 6
+  },
+  {
+    "id": 45,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 6
+  },
+  {
+    "id": 46,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 7
+  },
+  {
+    "id": 47,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 7
+  },
+  {
+    "id": 48,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 7
+  },
+  {
+    "id": 49,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 7
+  },
+  {
+    "id": 50,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 7
+  },
+  {
+    "id": 51,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 7
+  },
+  {
+    "id": 52,
+    "name": "Lieu 6",
+    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "image": "/assets/data/img/img-place-6.png",
+    "level": "hard",
+    "categoryId": 7
+  }
+]

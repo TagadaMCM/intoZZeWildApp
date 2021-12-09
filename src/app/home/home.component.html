@@ -1,0 +1,24 @@
+<app-page-title title="home" number="0"></app-page-title>
+<div class="home-menu">
+    <div class="img-container">
+        <img src="../../assets/logo-into-zze-wild.png" class="logo"/>
+    </div>
+    <button mat-raised-button class="button-menu rules" [routerLink]="['/rules']">
+        <mat-icon>
+            assignment
+        </mat-icon>
+        Règles du jeu
+    </button>
+    <button mat-raised-button class="button-menu map" [routerLink]="['/map']">
+        <mat-icon>
+            map
+        </mat-icon>
+        Carte
+    </button>
+    <button mat-raised-button class="button-menu places" [routerLink]="['/places']">
+        <mat-icon>
+            place
+        </mat-icon>
+        Lieux
+    </button>
+</div>

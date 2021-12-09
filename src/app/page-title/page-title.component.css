@@ -1,0 +1,72 @@
+.home-toolbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0380B0;
+}
+
+.rules-toolbar {
+    display: flex;
+    background-color:  #2D9ECA;
+}
+
+.map-toolbar {
+    display: flex;
+    background-color: #03A6B0;
+}
+
+.places-toolbar {
+    display: flex;
+    background-color: #066285;
+}
+
+mat-icon {
+    font-size: xx-large;
+    height: auto;
+    width: auto;
+}
+
+.button-place {
+    height: auto;
+    font-family: "bungee";
+    color: #fff;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.easy {
+    background-color: #739E6C;
+}
+
+.medium {
+    background-color: #E89B55;
+}
+
+.hard {
+    background-color: #CC4444;
+}
+
+.white-round {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-right: 14px;
+}
+
+.easy-font {
+    color: #739E6C;
+}
+
+.medium-font {
+    color: #E89B55;
+}
+
+.hard-font {
+    color: #CC4444;
+}
