@@ -34,11 +34,11 @@ export class PlaceDetailsComponent implements OnInit {
     this.hintImage = this.place.tip.includes("hint");
   }
 
-  openDialog() {
+  openDialog(img: String) {
     const dialogRef = this.dialog.open(PopUpImgComponent, {
       width: '400px',
       height: '400px',
-      data: {image: this.place.tip}
+      data: {image: img}
     });
 
     dialogRef.afterClosed().subscribe(result => {
