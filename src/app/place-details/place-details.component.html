@@ -5,7 +5,7 @@
 </div>
 
 <div class="page-details-container">
-    <div class="img-container {{place.level}}-border" (click)="openDialog({{place.image}})">
+    <div class="img-container {{place.level}}-border" (click)="openDialog(place.image)">
         <img src="{{place.image}}" class="logo"/>
     </div>
   <div class="hint-container {{place.level}}-background">
@@ -19,7 +19,7 @@
       </span>
     </div>
     <div class="hint-content" *ngIf="hintImage">
-      <div class="img-hint-container" (click)="openDialog({{place.tip}})" >
+      <div class="img-hint-container" (click)="openDialog(place.tip)" >
         <img src="{{place.tip}}" class="img-hint"/>
       </div>
     </div>
