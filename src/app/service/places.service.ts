@@ -12,8 +12,8 @@ export class PlacesService {
 
     let placesFound: number[];
 
-    if (sessionStorage.getItem('IntoZZeWild-placesIds') != null) {
-      placesFound = JSON.parse(sessionStorage.getItem('IntoZZeWild-placesIds'));
+    if (localStorage.getItem('IntoZZeWild-placesIds') != null) {
+      placesFound = JSON.parse(localStorage.getItem('IntoZZeWild-placesIds'));
     } else {
       placesFound = new Array();
       placesFound.push(3);
@@ -29,24 +29,24 @@ export class PlacesService {
   checkPlace(placeId: number): void {
     let ids: number[];
 
-    if (sessionStorage.getItem('IntoZZeWild-placesIds') != null) {
-      ids = JSON.parse(sessionStorage.getItem('IntoZZeWild-placesIds'));
+    if (localStorage.getItem('IntoZZeWild-placesIds') != null) {
+      ids = JSON.parse(localStorage.getItem('IntoZZeWild-placesIds'));
       ids = ids.filter(id => id !== placeId);
     } else {
       ids = new Array();
     }
     ids.push(placeId);
 
-    sessionStorage.setItem('IntoZZeWild-placesIds', JSON.stringify(ids));
+    localStorage.setItem('IntoZZeWild-placesIds', JSON.stringify(ids));
   }
 
   uncheckPlace(placeId: number): void {
     let ids: number[];
 
-    if (sessionStorage.getItem('IntoZZeWild-placesIds') != null) {
-      ids = JSON.parse(sessionStorage.getItem('IntoZZeWild-placesIds'));
+    if (localStorage.getItem('IntoZZeWild-placesIds') != null) {
+      ids = JSON.parse(localStorage.getItem('IntoZZeWild-placesIds'));
       ids = ids.filter(id => id !== placeId);
-      sessionStorage.setItem('IntoZZeWild-placesIds', JSON.stringify(ids));
+      localStorage.setItem('IntoZZeWild-placesIds', JSON.stringify(ids));
     }
   }
 }
