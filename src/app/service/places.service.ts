@@ -20,8 +20,6 @@ export class PlacesService {
     }
 
     places.forEach(place => {
-      console.log(place.id);
-      console.log(place.found);
       place.found = placesFound.some(placeFound => placeFound === place.id);
     });
 
