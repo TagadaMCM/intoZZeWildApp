@@ -12,6 +12,10 @@
     color: #fff;
 }
 
+.mat-expansion-panel-header {
+    height: 55px;
+}
+
 
 .button-place {
     width: 100%;
