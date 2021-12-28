@@ -27,6 +27,7 @@ export class PlacesService {
   }
 
   checkPlace(placeId: number): void {
+    console.log("On est dans le service");
     let ids: number[];
 
     if (localStorage.getItem('IntoZZeWild-placesIds') != null) {
