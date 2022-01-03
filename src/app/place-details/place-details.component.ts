@@ -1,8 +1,5 @@
-import { Route } from '@angular/compiler/src/core';
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
-import { PopUpImgComponent } from '../pop-up-img/pop-up-img.component';
-import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 import {Place} from '../model/Place';
 import {PlacesService} from '../service/places.service';
 
@@ -24,7 +21,7 @@ export class PlaceDetailsComponent implements OnInit {
   image: string;
   hintImage: boolean;
 
-  constructor(private router: Router, private route: ActivatedRoute, public dialog: MatDialog, public placeService: PlacesService) { }
+  constructor(private router: Router, private route: ActivatedRoute, public placeService: PlacesService) { }
 
   ngOnInit(): void {
     this.id = +this.route.snapshot.params.id;
@@ -32,10 +29,6 @@ export class PlaceDetailsComponent implements OnInit {
     const places = this.placeService.getPlaces();
     this.place = places.find(p => p.id === this.id);
     this.hintImage = this.place.tip.includes("hint");
-  }
-
-  openDialog(img: String) {
-    this.router.navigate(['zoom/image/', this.id, this.place.image]);
   }
 
   checkPlace(): void {

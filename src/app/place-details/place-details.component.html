@@ -19,7 +19,7 @@
       </span>
     </div>
     <div class="hint-content" *ngIf="hintImage">
-      <div class="img-hint-container" (click)="openDialog(place.tip)" >
+      <div class="img-hint-container" [routerLink]="['/zoom/image/', place.id, place.tip]">
         <img src="{{place.tip}}" class="img-hint"/>
       </div>
     </div>
