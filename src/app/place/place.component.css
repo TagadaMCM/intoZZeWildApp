@@ -75,3 +75,7 @@
     right: 20px;
     bottom: 32%;
 }
+
+mat-accordion {
+    padding-bottom: 50px !important;
+}

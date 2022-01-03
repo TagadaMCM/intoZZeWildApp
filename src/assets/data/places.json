@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Lieu 1",
     "tip": "l'indice pour trouver le lieu 1 !!!",
-    "image": "assets/data/img/img-place-1.png",
+    "image": "assets/data/img/place_1.PNG",
     "level": "easy",
     "categoryId": 0
   },
