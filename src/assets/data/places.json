@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Lieu 2",
     "tip": "assets/data/hint/default-image.jpeg",
-    "image": "assets/data/img/img-place-2.png",
+    "image": "assets/data/img/place_2.PNG",
     "level": "medium",
     "categoryId": 0
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Lieu 3",
     "tip": "l'indice pour trouver le lieu 3 !!!",
-    "image": "assets/data/img/img-place-3.png",
+    "image": "assets/data/img/place_3.PNG",
     "level": "hard",
     "categoryId": 0
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Lieu 4",
     "tip": "l'indice pour trouver le lieu 4 !!!",
-    "image": "assets/data/img/img-place-4.png",
+    "image": "assets/data/img/place_4.PNG",
     "level": "easy",
     "categoryId": 0
   },
