@@ -1,5 +1,6 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, Inject, Input, OnInit } from '@angular/core';
 import { MatDialogRef, MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { ActivatedRoute } from '@angular/router';
 import { DialogData } from '../place-details/place-details.component';
 
 @Component({
@@ -10,9 +11,13 @@ import { DialogData } from '../place-details/place-details.component';
 export class PopUpImgComponent implements OnInit {
 
   //private view: View;
+  @Input()
+  img: String;
 
   constructor(public dialogRef: MatDialogRef<PopUpImgComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) { }
+    @Inject(MAT_DIALOG_DATA) public data: DialogData, route: ActivatedRoute) { 
+      route.snapshot.paramMap.get('img');
+    }
 
   ngOnInit(): void {
     

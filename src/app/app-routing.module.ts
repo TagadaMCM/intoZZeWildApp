@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { MapComponent } from './map/map.component';
 import { PlaceDetailsComponent } from './place-details/place-details.component';
 import { PlaceComponent } from './place/place.component';
+import { PopUpImgComponent } from './pop-up-img/pop-up-img.component';
 import { RuleComponent } from './rule/rule.component';
 
 const routes: Routes = [
@@ -30,6 +31,14 @@ const routes: Routes = [
   {
     path: 'places/:id',
     component: PlaceDetailsComponent
+  },
+  {
+    path: 'zoom/image/:id',
+    component: PopUpImgComponent
+  },
+  {
+    path: 'zoom/hint/:id',
+    component: PopUpImgComponent
   }
 ];
 

@@ -44,6 +44,8 @@ export class PlaceDetailsComponent implements OnInit {
     dialogRef.afterClosed().subscribe(result => {
       console.log('The dialog was closed');
     });
+
+    this.router.navigate(['zoom/image/' + this.id, {img: this.place.image}]);
   }
 
   checkPlace(): void {
