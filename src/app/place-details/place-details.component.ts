@@ -35,16 +35,6 @@ export class PlaceDetailsComponent implements OnInit {
   }
 
   openDialog(img: String) {
-    const dialogRef = this.dialog.open(PopUpImgComponent, {
-      width: '400px',
-      height: '400px',
-      data: {image: img}
-    });
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-    });
-
     this.router.navigate(['zoom/image/' + this.id, {img: this.place.image}]);
   }
 

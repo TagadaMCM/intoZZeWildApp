@@ -14,10 +14,9 @@ export class PopUpImgComponent implements OnInit {
   @Input()
   img: String;
 
-  constructor(public dialogRef: MatDialogRef<PopUpImgComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData, route: ActivatedRoute) { 
+  constructor(route: ActivatedRoute) { 
       route.snapshot.paramMap.get('img');
-    }
+  }
 
   ngOnInit(): void {
     
