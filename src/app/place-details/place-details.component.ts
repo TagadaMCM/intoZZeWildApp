@@ -35,7 +35,7 @@ export class PlaceDetailsComponent implements OnInit {
   }
 
   openDialog(img: String) {
-    this.router.navigate(['zoom/image/' + this.id, {img: this.place.image}]);
+    this.router.navigate(['zoom/image/', this.id, this.place.image]);
   }
 
   checkPlace(): void {

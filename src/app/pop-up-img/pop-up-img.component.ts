@@ -11,11 +11,12 @@ import { DialogData } from '../place-details/place-details.component';
 export class PopUpImgComponent implements OnInit {
 
   //private view: View;
-  @Input()
   img: String;
+  id: number;
 
-  constructor(route: ActivatedRoute) { 
-      route.snapshot.paramMap.get('img');
+  constructor(private route: ActivatedRoute) { 
+      this.id = this.route.snapshot.params.id;
+      this.img = this.route.snapshot.params.img;
   }
 
   ngOnInit(): void {

@@ -33,11 +33,7 @@ const routes: Routes = [
     component: PlaceDetailsComponent
   },
   {
-    path: 'zoom/image/:id',
-    component: PopUpImgComponent
-  },
-  {
-    path: 'zoom/hint/:id',
+    path: 'zoom/image/:id/:img',
     component: PopUpImgComponent
   }
 ];

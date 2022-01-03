@@ -5,7 +5,7 @@
 </div>
 
 <div class="page-details-container">
-    <div class="img-container {{place.level}}-border" (click)="openDialog(place.image)">
+    <div class="img-container {{place.level}}-border" [routerLink]="['/zoom/image/', place.id, place.image]">
         <img src="{{place.image}}" class="logo"/>
     </div>
   <div class="hint-container {{place.level}}-background">
