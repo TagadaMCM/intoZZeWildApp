@@ -10,7 +10,7 @@
     <mat-icon style="margin-right: 5px;"> map</mat-icon> Carte
 </mat-toolbar>
 <mat-toolbar class="map-toolbar title" *ngIf="title == 'zoom'">
-    <mat-icon style="margin-right: 20px;" [routerLink]="['../../../../places/{{this.idPlace}}']">arrow_back</mat-icon>
+    <mat-icon style="margin-right: 20px;" [routerLink]="['../../../../places/' + this.idPlace]">arrow_back</mat-icon>
     <mat-icon style="margin-right: 5px;"> zoom_in</mat-icon> Zoom
 </mat-toolbar>
 <mat-toolbar class="places-toolbar title" *ngIf="title == 'places'">
