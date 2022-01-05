@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Lieu 1",
-    "tip": "l'indice pour trouver le lieu 1 !!!",
+    "tip": "assets/data/hint/hint_1.jpg",
     "image": "assets/data/img/place_1.PNG",
     "level": "easy",
     "categoryId": 0
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Lieu 2",
-    "tip": "assets/data/hint/default-image.jpeg",
+    "tip": "assets/data/hint/hint_2.jpg",
     "image": "assets/data/img/place_2.PNG",
     "level": "easy",
     "categoryId": 0
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Lieu 3",
-    "tip": "l'indice pour trouver le lieu 3 !!!",
+    "tip": "assets/data/hint/hint_3.jpg",
     "image": "assets/data/img/place_3.PNG",
     "level": "easy",
     "categoryId": 0
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Lieu 4",
-    "tip": "l'indice pour trouver le lieu 4 !!!",
+    "tip": "assets/data/hint/hint_4.jpg",
     "image": "assets/data/img/place_4.PNG",
     "level": "easy",
     "categoryId": 0
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Lieu 7",
-    "tip": "l'indice pour trouver le lieu 7 !!!",
+    "tip": "assets/data/hint/hint_7.jpg",
     "image": "assets/data/img/place_7.PNG",
     "level": "easy",
     "categoryId": 1
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Lieu 8",
-    "tip": "l'indice pour trouver le lieu 8 !!!",
+    "tip": "assets/data/hint/hint_8.jpg",
     "image": "assets/data/img/place_8.PNG",
     "level": "hard",
     "categoryId": 1
@@ -66,9 +66,9 @@
   {
     "id": 9,
     "name": "Lieu 9",
-    "tip": "l'indice pour trouver le lieu 9 !!!",
+    "tip": "assets/data/hint/hint_9.jpg",
     "image": "assets/data/img/place_9.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 1
   },
   {
@@ -82,9 +82,9 @@
   {
     "id": 11,
     "name": "Lieu 11",
-    "tip": "l'indice pour trouver le lieu 11 !!!",
+    "tip": "assets/data/hint/hint_11.jpg",
     "image": "assets/data/img/place_11.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 1
   },
   {
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "name": "Lieu 13",
-    "tip": "l'indice pour trouver le lieu 13 !!!",
+    "tip": "assets/data/hint/hint_13.jpg",
     "image": "assets/data/img/place_13.PNG",
     "level": "hard",
     "categoryId": 2
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "name": "Lieu 15",
-    "tip": "l'indice pour trouver le lieu 15 !!!",
+    "tip": "assets/data/hint/hint_15.jpg",
     "image": "assets/data/img/place_15.PNG",
     "level": "hard",
     "categoryId": 2
@@ -130,9 +130,9 @@
   {
     "id": 17,
     "name": "Lieu 17",
-    "tip": "l'indice pour trouver le lieu 17 !!!",
+    "tip": "assets/data/hint/hint_17.jpg",
     "image": "assets/data/img/place_17.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 2
   },
   {
@@ -154,17 +154,17 @@
   {
     "id": 20,
     "name": "Lieu 20",
-    "tip": "l'indice pour trouver le lieu 20 !!!",
+    "tip": "Lieu de naissance des futures managers clermontois, j'arbore fièrement la couleur violette.",
     "image": "assets/data/img/place_20.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 2
   },
   {
     "id": 21,
     "name": "Lieu 21",
-    "tip": "l'indice pour trouver le lieu 21 !!!",
+    "tip": "assets/data/hint/hint_21.jpg",
     "image": "assets/data/img/place_21.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 2
   },
   {
@@ -172,15 +172,15 @@
     "name": "Lieu 22",
     "tip": "l'indice pour trouver le lieu 22 !!!",
     "image": "assets/data/img/place_22.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 3
   },
   {
     "id": 23,
     "name": "Lieu 23",
-    "tip": "l'indice pour trouver le lieu 23 !!!",
+    "tip": "assets/data/hint/hint_23.jpg",
     "image": "assets/data/img/place_23.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 3
   },
   {
@@ -188,15 +188,15 @@
     "name": "Lieu 24",
     "tip": "l'indice pour trouver le lieu 24 !!!",
     "image": "assets/data/img/place_24.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 3
   },
   {
     "id": 25,
     "name": "Lieu 25",
-    "tip": "l'indice pour trouver le lieu 25 !!!",
+    "tip": "assets/data/hint/hint_25.jpg",
     "image": "assets/data/img/place_25.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 3
   },
   {
@@ -210,17 +210,17 @@
   {
     "id": 27,
     "name": "Lieu 27",
-    "tip": "l'indice pour trouver le lieu 27 !!!",
+    "tip": "assets/data/hint/hint_27.jpg",
     "image": "assets/data/img/place_27.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 3
   },
   {
     "id": 28,
     "name": "Lieu 28",
-    "tip": "l'indice pour trouver le lieu 28 !!!",
+    "tip": "assets/data/hint/hint_28.jpg",
     "image": "assets/data/img/place_28.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 3
   },
   {
@@ -228,7 +228,7 @@
     "name": "Lieu 29",
     "tip": "l'indice pour trouver le lieu 29 !!!",
     "image": "assets/data/img/place_29.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 4
   },
   {
@@ -250,17 +250,17 @@
   {
     "id": 32,
     "name": "Lieu 32",
-    "tip": "l'indice pour trouver le lieu 32 !!!",
+    "tip": "assets/data/hint/hint_32.jpg",
     "image": "assets/data/img/place_32.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 4
   },
   {
     "id": 33,
     "name": "Lieu 33",
-    "tip": "l'indice pour trouver le lieu 33 !!!",
+    "tip": "assets/data/hint/hint_33.jpg",
     "image": "assets/data/img/place_33.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 4
   },
   {
@@ -274,7 +274,7 @@
   {
     "id": 35,
     "name": "Lieu 35",
-    "tip": "l'indice pour trouver le lieu 35 !!!",
+    "tip": "assets/data/hint/hint_35.jpg",
     "image": "assets/data/img/place_35.PNG",
     "level": "hard",
     "categoryId": 4
@@ -284,15 +284,15 @@
     "name": "Lieu 36",
     "tip": "l'indice pour trouver le lieu 36 !!!",
     "image": "assets/data/img/place_36.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 4
   },
   {
     "id": 37,
     "name": "Lieu 37",
-    "tip": "l'indice pour trouver le lieu 37 !!!",
+    "tip": "assets/data/hint/hint_37.jpg",
     "image": "assets/data/img/place_37.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 4
   },
   {
@@ -306,17 +306,17 @@
   {
     "id": 39,
     "name": "Lieu 39",
-    "tip": "l'indice pour trouver le lieu 39 !!!",
+    "tip": "assets/data/hint/hint_39.jpg",
     "image": "assets/data/img/place_39.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 5
   },
   {
     "id": 40,
     "name": "Lieu 40",
-    "tip": "l'indice pour trouver le lieu 40 !!!",
+    "tip": "assets/data/hint/hint_41.jpg",
     "image": "assets/data/img/place_40.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 6
   },
   {
@@ -346,33 +346,33 @@
   {
     "id": 44,
     "name": "Lieu 44",
-    "tip": "l'indice pour trouver le lieu 44 !!!",
+    "tip": "assets/data/hint/hint_44.jpg",
     "image": "assets/data/img/place_44.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 6
   },
   {
     "id": 45,
     "name": "Lieu 45",
-    "tip": "l'indice pour trouver le lieu 45 !!!",
+    "tip": "assets/data/hint/hint_45.jpg",
     "image": "assets/data/img/place_45.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 6
   },
   {
     "id": 46,
     "name": "Lieu 46",
-    "tip": "l'indice pour trouver le lieu 46 !!!",
+    "tip": "assets/data/hint/hint_46.jpg",
     "image": "assets/data/img/place_46.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 7
   },
   {
     "id": 47,
     "name": "Lieu 47",
-    "tip": "l'indice pour trouver le lieu 47 !!!",
+    "tip": "assets/data/hint/hint_47.jpg",
     "image": "assets/data/img/place_47.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 7
   },
   {
@@ -386,9 +386,9 @@
   {
     "id": 49,
     "name": "Lieu 49",
-    "tip": "l'indice pour trouver le lieu 49 !!!",
+    "tip": "assets/data/hint/hint_49.jpg",
     "image": "assets/data/img/place_49.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 7
   }
 ]
