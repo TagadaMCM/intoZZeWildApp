@@ -69,7 +69,7 @@
     "tip": "assets/data/hint/hint_9.jpg",
     "image": "assets/data/img/place_9.PNG",
     "level": "easy",
-    "categoryId": 1
+    "categoryId": 2
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "tip": "l'indice pour trouver le lieu 10 !!!",
     "image": "assets/data/img/place_10.PNG",
     "level": "hard",
-    "categoryId": 1
+    "categoryId": 2
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "tip": "assets/data/hint/hint_11.jpg",
     "image": "assets/data/img/place_11.PNG",
     "level": "easy",
-    "categoryId": 1
+    "categoryId": 2
   },
   {
     "id": 12,
@@ -149,7 +149,7 @@
     "tip": "l'indice pour trouver le lieu 19 !!!",
     "image": "assets/data/img/place_19.PNG",
     "level": "hard",
-    "categoryId": 2
+    "categoryId": 3
   },
   {
     "id": 20,
@@ -157,7 +157,7 @@
     "tip": "Lieu de naissance des futures managers clermontois, j'arbore fièrement la couleur violette.",
     "image": "assets/data/img/place_20.PNG",
     "level": "easy",
-    "categoryId": 2
+    "categoryId": 3
   },
   {
     "id": 21,
@@ -165,7 +165,7 @@
     "tip": "assets/data/hint/hint_21.jpg",
     "image": "assets/data/img/place_21.PNG",
     "level": "medium",
-    "categoryId": 2
+    "categoryId": 3
   },
   {
     "id": 22,
@@ -205,7 +205,7 @@
     "tip": "l'indice pour trouver le lieu 26 !!!",
     "image": "assets/data/img/place_26.PNG",
     "level": "hard",
-    "categoryId": 3
+    "categoryId": 4
   },
   {
     "id": 27,
@@ -213,7 +213,7 @@
     "tip": "assets/data/hint/hint_27.jpg",
     "image": "assets/data/img/place_27.PNG",
     "level": "easy",
-    "categoryId": 3
+    "categoryId": 4
   },
   {
     "id": 28,
@@ -221,7 +221,7 @@
     "tip": "assets/data/hint/hint_28.jpg",
     "image": "assets/data/img/place_28.PNG",
     "level": "easy",
-    "categoryId": 3
+    "categoryId": 4
   },
   {
     "id": 29,
@@ -285,7 +285,7 @@
     "tip": "l'indice pour trouver le lieu 36 !!!",
     "image": "assets/data/img/place_36.PNG",
     "level": "medium",
-    "categoryId": 4
+    "categoryId": 5
   },
   {
     "id": 37,
@@ -293,7 +293,7 @@
     "tip": "assets/data/hint/hint_37.jpg",
     "image": "assets/data/img/place_37.PNG",
     "level": "medium",
-    "categoryId": 4
+    "categoryId": 5
   },
   {
     "id": 38,
@@ -301,7 +301,7 @@
     "tip": "l'indice pour trouver le lieu 38 !!!",
     "image": "assets/data/img/place_38.PNG",
     "level": "hard",
-    "categoryId": 5
+    "categoryId": 6
   },
   {
     "id": 39,
@@ -309,7 +309,7 @@
     "tip": "assets/data/hint/hint_39.jpg",
     "image": "assets/data/img/place_39.PNG",
     "level": "medium",
-    "categoryId": 5
+    "categoryId": 6
   },
   {
     "id": 40,
@@ -349,7 +349,7 @@
     "tip": "assets/data/hint/hint_44.jpg",
     "image": "assets/data/img/place_44.PNG",
     "level": "easy",
-    "categoryId": 6
+    "categoryId": 7
   },
   {
     "id": 45,
@@ -357,7 +357,7 @@
     "tip": "assets/data/hint/hint_45.jpg",
     "image": "assets/data/img/place_45.PNG",
     "level": "easy",
-    "categoryId": 6
+    "categoryId": 7
   },
   {
     "id": 46,
