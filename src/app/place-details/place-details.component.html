@@ -1,7 +1,7 @@
 <app-page-title [number]="place.id" [difficulty]="place.level"></app-page-title>
 
 <div class="checkPlace-box">
-  <span class="title">Trouvé : </span><mat-checkbox class="checkbox-{{place.level}}" [checked]="place.found" (click)="changeCheckPlace()" style="margin-left: 10px;"></mat-checkbox>
+  <span class="title">Trouvé : </span><mat-checkbox class="checkbox-{{place.level}}" [checked]="place.found" (change)="onCheckboxChange($event)" style="margin-left: 10px;"></mat-checkbox>
 </div>
 
 <div class="page-details-container">

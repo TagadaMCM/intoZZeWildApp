@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Place} from '../model/Place';
 import {PlacesService} from '../service/places.service';
+import {MatCheckboxChange} from '@angular/material/checkbox';
 
 export interface DialogData {
   image: string;
@@ -59,6 +60,14 @@ export class PlaceDetailsComponent implements OnInit {
       this.uncheckPlace();
     } else {
       this.checkPlace();
+    }
+  }
+
+  onCheckboxChange(event:MatCheckboxChange): void {
+    if (event.checked) {
+      this.checkPlace();
+    } else {
+      this.uncheckPlace();
     }
   }
 
