@@ -32,7 +32,7 @@
 }
 
 .hint-container {
-    height: 30%;
+    height: fit-content;
     width: 75%;
     margin-top: 40px;
     border-radius: 20px;
@@ -40,6 +40,7 @@
     color: #fff;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .easy-background {
