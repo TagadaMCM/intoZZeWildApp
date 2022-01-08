@@ -74,9 +74,9 @@
   {
     "id": 10,
     "name": "Lieu 10",
-    "tip": "l'indice pour trouver le lieu 10 !!!",
+    "tip": "Je suis situé en face d'une grande maison.",
     "image": "assets/data/img/place_10.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 2
   },
   {
@@ -90,9 +90,9 @@
   {
     "id": 12,
     "name": "Lieu 12",
-    "tip": "l'indice pour trouver le lieu 12 !!!",
+    "tip": "Je suis situé en face d'une grande place.",
     "image": "assets/data/img/place_12.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 2
   },
   {
@@ -100,13 +100,13 @@
     "name": "Lieu 13",
     "tip": "assets/data/hint/hint_13.jpg",
     "image": "assets/data/img/place_13.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 2
   },
   {
     "id": 14,
     "name": "Lieu 14",
-    "tip": "l'indice pour trouver le lieu 14 !!!",
+    "tip": "Je suis adossé à un petit muret.",
     "image": "assets/data/img/place_14.PNG",
     "level": "hard",
     "categoryId": 2
@@ -116,13 +116,13 @@
     "name": "Lieu 15",
     "tip": "assets/data/hint/hint_15.jpg",
     "image": "assets/data/img/place_15.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 2
   },
   {
     "id": 16,
     "name": "Lieu 16",
-    "tip": "l'indice pour trouver le lieu 16 !!!",
+    "tip": "Je suis situé sur un pont.",
     "image": "assets/data/img/place_16.PNG",
     "level": "hard",
     "categoryId": 2
@@ -138,7 +138,7 @@
   {
     "id": 18,
     "name": "Lieu 18",
-    "tip": "l'indice pour trouver le lieu 18 !!!",
+    "tip": "Mon accès est limité tous les dimanche matins.",
     "image": "assets/data/img/place_18.PNG",
     "level": "hard",
     "categoryId": 2
@@ -154,7 +154,7 @@
   {
     "id": 20,
     "name": "Lieu 20",
-    "tip": "Lieu de naissance des futures managers clermontois, j'arbore fièrement la couleur violette.",
+    "tip": "Lieu de naissance des futurs managers clermontois, j'arbore fièrement la couleur violette.",
     "image": "assets/data/img/place_20.PNG",
     "level": "easy",
     "categoryId": 3
@@ -170,7 +170,7 @@
   {
     "id": 22,
     "name": "Lieu 22",
-    "tip": "l'indice pour trouver le lieu 22 !!!",
+    "tip": "Lieu de naissance des futurs psychologues clermontois, j'arbore fièrement la couleur orange.",
     "image": "assets/data/img/place_22.PNG",
     "level": "easy",
     "categoryId": 3
@@ -186,7 +186,7 @@
   {
     "id": 24,
     "name": "Lieu 24",
-    "tip": "l'indice pour trouver le lieu 24 !!!",
+    "tip": "Il est dit que les collègiens peuvent y entendre des voix, et ce dans toutes les langues…",
     "image": "assets/data/img/place_24.PNG",
     "level": "medium",
     "categoryId": 3
@@ -226,7 +226,7 @@
   {
     "id": 29,
     "name": "Lieu 29",
-    "tip": "l'indice pour trouver le lieu 29 !!!",
+    "tip": "Je suis chef des Arvernes, vainqueur du siège de Gergovie !",
     "image": "assets/data/img/place_29.PNG",
     "level": "easy",
     "categoryId": 4
@@ -234,7 +234,7 @@
   {
     "id": 30,
     "name": "Lieu 30",
-    "tip": "l'indice pour trouver le lieu 30 !!!",
+    "tip": "Anciennement derrière Clermont et désormais dépourvue de mon amboise, je reste victorieuse !",
     "image": "assets/data/img/place_30.PNG",
     "level": "hard",
     "categoryId": 4
@@ -242,7 +242,7 @@
   {
     "id": 31,
     "name": "Lieu 31",
-    "tip": "l'indice pour trouver le lieu 31 !!!",
+    "tip": "Située à l'intersection entre les Etats Unis et Saint-Dominique, je suis place d'une jeune fille.",
     "image": "assets/data/img/place_31.PNG",
     "level": "hard",
     "categoryId": 4
@@ -266,7 +266,7 @@
   {
     "id": 34,
     "name": "Lieu 34",
-    "tip": "l'indice pour trouver le lieu 34 !!!",
+    "tip": "Je suis à la croisée des deux mondes. Le bon et le mauvais.",
     "image": "assets/data/img/place_34.PNG",
     "level": "hard",
     "categoryId": 4
@@ -282,7 +282,7 @@
   {
     "id": 36,
     "name": "Lieu 36",
-    "tip": "l'indice pour trouver le lieu 36 !!!",
+    "tip": "Quand notre resto tourne bien, c'est que la situation tourne mal.",
     "image": "assets/data/img/place_36.PNG",
     "level": "medium",
     "categoryId": 5
@@ -298,9 +298,9 @@
   {
     "id": 38,
     "name": "Lieu 38",
-    "tip": "l'indice pour trouver le lieu 38 !!!",
+    "tip": "Je suis une grande maison, ravie de pouvoir présenter à mes nombreux invités spectacles et concerts.",
     "image": "assets/data/img/place_38.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 6
   },
   {
@@ -322,7 +322,7 @@
   {
     "id": 41,
     "name": "Lieu 41",
-    "tip": "l'indice pour trouver le lieu 41 !!!",
+    "tip": "Je préserve et raconte l'histoire de la nature depuis 1873.",
     "image": "assets/data/img/place_41.PNG",
     "level": "hard",
     "categoryId": 6
@@ -330,15 +330,15 @@
   {
     "id": 42,
     "name": "Lieu 42",
-    "tip": "l'indice pour trouver le lieu 42 !!!",
+    "tip": "J'accueille toute personne souhaitant étudier la musique, la chorégraphie ou l'art dramatique.",
     "image": "assets/data/img/place_42.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 6
   },
   {
     "id": 43,
     "name": "Lieu 43",
-    "tip": "l'indice pour trouver le lieu 43 !!!",
+    "tip": "Plus haut que les nues, vos idées peuvent être en vrac.",
     "image": "assets/data/img/place_43.PNG",
     "level": "hard",
     "categoryId": 6
@@ -378,9 +378,9 @@
   {
     "id": 48,
     "name": "Lieu 48",
-    "tip": "l'indice pour trouver le lieu 48 !!!",
+    "tip": "Clermontois, je suis le lieu qu'il vous faut pour accomplir votre devoir civique !",
     "image": "assets/data/img/place_48.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 7
   },
   {
