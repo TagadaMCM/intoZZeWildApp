@@ -1,7 +1,9 @@
 <app-page-title title="places" number="0"></app-page-title>
-
+<div class="score-container">
+  <span style="color: #000;">Votre score</span>
+  <span class="score" style="color: #066285;">{{this.score}} points</span>
+</div>
 <div class="places-list">
-
   <mat-accordion>
     <mat-expansion-panel (opened)="panelSponsorsOpenState = true"
                          (closed)="panelSponsorsOpenState = false" style="background-color: rgb(221, 198, 94);">

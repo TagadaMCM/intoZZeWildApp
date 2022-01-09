@@ -34,7 +34,6 @@ export class PlaceDetailsComponent implements OnInit {
 
   checkPlace(): void {
     this.placeService.checkPlace(this.id);
-    console.log("Le lieu a ajoute est le " + this.id);
 
     // reload places ...
     const places = this.placeService.getPlaces();
