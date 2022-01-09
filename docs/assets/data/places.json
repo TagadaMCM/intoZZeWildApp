@@ -34,17 +34,17 @@
   {
     "id": 5,
     "name": "Lieu 5",
-    "tip": "l'indice pour trouver le lieu 5 !!!",
+    "tip": "assets/data/hint/hint_5.jpg",
     "image": "assets/data/img/place_5.PNG",
-    "level": "medium",
+    "level": "hard",
     "categoryId": 1
   },
   {
     "id": 6,
     "name": "Lieu 6",
-    "tip": "l'indice pour trouver le lieu 6 !!!",
+    "tip": "assets/data/hint/hint_6.jpg",
     "image": "assets/data/img/place_6.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 1
   },
   {
@@ -52,7 +52,7 @@
     "name": "Lieu 7",
     "tip": "assets/data/hint/hint_7.jpg",
     "image": "assets/data/img/place_7.PNG",
-    "level": "easy",
+    "level": "hard",
     "categoryId": 1
   },
   {
@@ -60,125 +60,125 @@
     "name": "Lieu 8",
     "tip": "assets/data/hint/hint_8.jpg",
     "image": "assets/data/img/place_8.PNG",
-    "level": "hard",
-    "categoryId": 1
+    "level": "easy",
+    "categoryId": 2
   },
   {
     "id": 9,
     "name": "Lieu 9",
-    "tip": "assets/data/hint/hint_9.jpg",
+    "tip": "Je suis situé en face d'une grande maison.",
     "image": "assets/data/img/place_9.PNG",
-    "level": "easy",
+    "level": "medium",
     "categoryId": 2
   },
   {
     "id": 10,
     "name": "Lieu 10",
-    "tip": "Je suis situé en face d'une grande maison.",
+    "tip": "assets/data/hint/hint_10.jpg",
     "image": "assets/data/img/place_10.PNG",
-    "level": "medium",
+    "level": "easy",
     "categoryId": 2
   },
   {
     "id": 11,
     "name": "Lieu 11",
-    "tip": "assets/data/hint/hint_11.jpg",
+    "tip": "Je suis situé en face d'une grande place.",
     "image": "assets/data/img/place_11.PNG",
-    "level": "easy",
+    "level": "medium",
     "categoryId": 2
   },
   {
     "id": 12,
     "name": "Lieu 12",
-    "tip": "Je suis situé en face d'une grande place.",
+    "tip": "assets/data/hint/hint_12.jpg",
     "image": "assets/data/img/place_12.PNG",
-    "level": "medium",
+    "level": "easy",
     "categoryId": 2
   },
   {
     "id": 13,
     "name": "Lieu 13",
-    "tip": "assets/data/hint/hint_13.jpg",
+    "tip": "Je suis adossé à un petit muret.",
     "image": "assets/data/img/place_13.PNG",
-    "level": "easy",
+    "level": "hard",
     "categoryId": 2
   },
   {
     "id": 14,
     "name": "Lieu 14",
-    "tip": "Je suis adossé à un petit muret.",
+    "tip": "assets/data/hint/hint_14.jpg",
     "image": "assets/data/img/place_14.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 2
   },
   {
     "id": 15,
     "name": "Lieu 15",
-    "tip": "assets/data/hint/hint_15.jpg",
+    "tip": "Je suis situé sur un pont.",
     "image": "assets/data/img/place_15.PNG",
-    "level": "easy",
+    "level": "hard",
     "categoryId": 2
   },
   {
     "id": 16,
     "name": "Lieu 16",
-    "tip": "Je suis situé sur un pont.",
+    "tip": "assets/data/hint/hint_16.jpg",
     "image": "assets/data/img/place_16.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 2
   },
   {
     "id": 17,
     "name": "Lieu 17",
-    "tip": "assets/data/hint/hint_17.jpg",
+    "tip": "Mon accès est limité tous les dimanche matins.",
     "image": "assets/data/img/place_17.PNG",
-    "level": "easy",
+    "level": "hard",
     "categoryId": 2
   },
   {
     "id": 18,
     "name": "Lieu 18",
-    "tip": "Mon accès est limité tous les dimanche matins.",
+    "tip": "assets/data/hint/hint_18.jpg",
     "image": "assets/data/img/place_18.PNG",
     "level": "hard",
-    "categoryId": 2
+    "categoryId": 3
   },
   {
     "id": 19,
     "name": "Lieu 19",
-    "tip": "l'indice pour trouver le lieu 19 !!!",
+    "tip": "Lieu de naissance des futurs managers clermontois, j'arbore fièrement la couleur violette.",
     "image": "assets/data/img/place_19.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 3
   },
   {
     "id": 20,
     "name": "Lieu 20",
-    "tip": "Lieu de naissance des futurs managers clermontois, j'arbore fièrement la couleur violette.",
+    "tip": "assets/data/hint/hint_20.jpg",
     "image": "assets/data/img/place_20.PNG",
-    "level": "easy",
+    "level": "medium",
     "categoryId": 3
   },
   {
     "id": 21,
     "name": "Lieu 21",
-    "tip": "assets/data/hint/hint_21.jpg",
+    "tip": "Lieu de naissance des futurs psychologues clermontois, j'arbore fièrement la couleur orange.",
     "image": "assets/data/img/place_21.PNG",
-    "level": "medium",
+    "level": "easy",
     "categoryId": 3
   },
   {
     "id": 22,
     "name": "Lieu 22",
-    "tip": "Lieu de naissance des futurs psychologues clermontois, j'arbore fièrement la couleur orange.",
+    "tip": "assets/data/hint/hint_22.jpg",
     "image": "assets/data/img/place_22.PNG",
-    "level": "easy",
+    "level": "medium",
     "categoryId": 3
   },
   {
     "id": 23,
     "name": "Lieu 23",
-    "tip": "assets/data/hint/hint_23.jpg",
+    "tip": "Il est dit que les collègiens peuvent y entendre des voix, et ce dans toutes les langues…",
     "image": "assets/data/img/place_23.PNG",
     "level": "medium",
     "categoryId": 3
@@ -186,7 +186,7 @@
   {
     "id": 24,
     "name": "Lieu 24",
-    "tip": "Il est dit que les collègiens peuvent y entendre des voix, et ce dans toutes les langues…",
+    "tip": "assets/data/hint/hint_24.jpg",
     "image": "assets/data/img/place_24.PNG",
     "level": "medium",
     "categoryId": 3
@@ -196,15 +196,15 @@
     "name": "Lieu 25",
     "tip": "assets/data/hint/hint_25.jpg",
     "image": "assets/data/img/place_25.PNG",
-    "level": "medium",
-    "categoryId": 3
+    "level": "hard",
+    "categoryId": 4
   },
   {
     "id": 26,
     "name": "Lieu 26",
-    "tip": "l'indice pour trouver le lieu 26 !!!",
+    "tip": "assets/data/hint/hint_26.jpg",
     "image": "assets/data/img/place_26.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 4
   },
   {
@@ -218,7 +218,7 @@
   {
     "id": 28,
     "name": "Lieu 28",
-    "tip": "assets/data/hint/hint_28.jpg",
+    "tip": "Je suis chef des Arvernes, vainqueur du siège de Gergovie !",
     "image": "assets/data/img/place_28.PNG",
     "level": "easy",
     "categoryId": 4
@@ -226,15 +226,15 @@
   {
     "id": 29,
     "name": "Lieu 29",
-    "tip": "Je suis chef des Arvernes, vainqueur du siège de Gergovie !",
+    "tip": "Anciennement derrière Clermont et désormais dépourvue de mon amboise, je reste victorieuse !",
     "image": "assets/data/img/place_29.PNG",
-    "level": "easy",
+    "level": "hard",
     "categoryId": 4
   },
   {
     "id": 30,
     "name": "Lieu 30",
-    "tip": "Anciennement derrière Clermont et désormais dépourvue de mon amboise, je reste victorieuse !",
+    "tip": "Située à l'intersection entre les Etats Unis et Saint-Dominique, je suis place d'une jeune fille.",
     "image": "assets/data/img/place_30.PNG",
     "level": "hard",
     "categoryId": 4
@@ -242,9 +242,9 @@
   {
     "id": 31,
     "name": "Lieu 31",
-    "tip": "Située à l'intersection entre les Etats Unis et Saint-Dominique, je suis place d'une jeune fille.",
+    "tip": "assets/data/hint/hint_31.jpg",
     "image": "assets/data/img/place_31.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 4
   },
   {
@@ -258,15 +258,15 @@
   {
     "id": 33,
     "name": "Lieu 33",
-    "tip": "assets/data/hint/hint_33.jpg",
+    "tip": "Je suis à la croisée des deux mondes. Le bon et le mauvais.",
     "image": "assets/data/img/place_33.PNG",
-    "level": "medium",
+    "level": "hard",
     "categoryId": 4
   },
   {
     "id": 34,
     "name": "Lieu 34",
-    "tip": "Je suis à la croisée des deux mondes. Le bon et le mauvais.",
+    "tip": "assets/data/hint/hint_34.jpg",
     "image": "assets/data/img/place_34.PNG",
     "level": "hard",
     "categoryId": 4
@@ -274,15 +274,15 @@
   {
     "id": 35,
     "name": "Lieu 35",
-    "tip": "assets/data/hint/hint_35.jpg",
+    "tip": "Quand notre resto tourne bien, c'est que la situation tourne mal.",
     "image": "assets/data/img/place_35.PNG",
-    "level": "hard",
-    "categoryId": 4
+    "level": "medium",
+    "categoryId": 5
   },
   {
     "id": 36,
     "name": "Lieu 36",
-    "tip": "Quand notre resto tourne bien, c'est que la situation tourne mal.",
+    "tip": "assets/data/hint/hint_36.jpg",
     "image": "assets/data/img/place_36.PNG",
     "level": "medium",
     "categoryId": 5
@@ -290,15 +290,15 @@
   {
     "id": 37,
     "name": "Lieu 37",
-    "tip": "assets/data/hint/hint_37.jpg",
+    "tip": "Je suis une grande maison, ravie de pouvoir présenter à mes nombreux invités spectacles et concerts.",
     "image": "assets/data/img/place_37.PNG",
     "level": "medium",
-    "categoryId": 5
+    "categoryId": 6
   },
   {
     "id": 38,
     "name": "Lieu 38",
-    "tip": "Je suis une grande maison, ravie de pouvoir présenter à mes nombreux invités spectacles et concerts.",
+    "tip": "assets/data/hint/hint_38.jpg",
     "image": "assets/data/img/place_38.PNG",
     "level": "medium",
     "categoryId": 6
@@ -308,37 +308,37 @@
     "name": "Lieu 39",
     "tip": "assets/data/hint/hint_39.jpg",
     "image": "assets/data/img/place_39.PNG",
-    "level": "medium",
+    "level": "easy",
     "categoryId": 6
   },
   {
     "id": 40,
     "name": "Lieu 40",
-    "tip": "assets/data/hint/hint_41.jpg",
+    "tip": "Je préserve et raconte l'histoire de la nature depuis 1873.",
     "image": "assets/data/img/place_40.PNG",
-    "level": "easy",
+    "level": "hard",
     "categoryId": 6
   },
   {
     "id": 41,
     "name": "Lieu 41",
-    "tip": "Je préserve et raconte l'histoire de la nature depuis 1873.",
+    "tip": "J'accueille toute personne souhaitant étudier la musique, la chorégraphie ou l'art dramatique.",
     "image": "assets/data/img/place_41.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 6
   },
   {
     "id": 42,
     "name": "Lieu 42",
-    "tip": "J'accueille toute personne souhaitant étudier la musique, la chorégraphie ou l'art dramatique.",
+    "tip": "Plus haut que les nues, vos idées peuvent être en vrac.",
     "image": "assets/data/img/place_42.PNG",
-    "level": "easy",
+    "level": "hard",
     "categoryId": 6
   },
   {
     "id": 43,
     "name": "Lieu 43",
-    "tip": "Plus haut que les nues, vos idées peuvent être en vrac.",
+    "tip": "assets/data/hint/hint_43.jpg",
     "image": "assets/data/img/place_43.PNG",
     "level": "hard",
     "categoryId": 6
