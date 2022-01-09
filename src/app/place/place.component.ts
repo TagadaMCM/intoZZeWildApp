@@ -31,9 +31,11 @@ export class PlaceComponent implements OnInit {
 
 
   places: Place[];
+  score: number;
 
   constructor(placesService: PlacesService) {
     this.places = placesService.getPlaces();
+    this.score = placesService.getScore();
     this.places.forEach(place => {
       switch (place.categoryId) {
         case 0: {

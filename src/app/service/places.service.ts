@@ -8,14 +8,11 @@ import data from '../../assets/data/places.json';
 export class PlacesService {
 
   getPlaces(): Place[] {
-    console.log("getPlaces ...");
     const places = data as Place[];
 
     let placesFound: number[];
 
     let placesStr = localStorage.getItem('IntoZZeWild-placesIds');
-
-    console.log("placesStr = ", placesStr);
 
     if (placesStr != null) {
       placesFound = JSON.parse(placesStr);
@@ -26,32 +23,75 @@ export class PlacesService {
     places.forEach(place => {
       place.found = placesFound.some(placeFound => placeFound === place.id);
     });
-
-    console.log("placesStr = ", placesStr);
-
-    console.log("getPlaces done.");
     return places;
   }
 
+  getScore() : number {
+    let score: number;
+    let bonus: number;
+    score = 0;
+    bonus = 0;
+    let placesFound: number[];
+    let nbPlacesByCategories: number[] = [0, 0, 0, 0, 0, 0, 0, 0];
+    let nbPlacesFoundByCat: number[] = [0, 0, 0, 0, 0, 0, 0, 0];
+    const places = data as Place[];
+    let placesStr = localStorage.getItem('IntoZZeWild-placesIds');
+
+    if (placesStr != null) {
+      placesFound = JSON.parse(placesStr);
+
+      places.forEach(place => {
+        place.found = placesFound.some(placeFound => placeFound === place.id);
+        nbPlacesByCategories[place.categoryId]++;
+        if (place.found) {
+          nbPlacesFoundByCat[place.categoryId]++;
+          switch (place.level) {
+            case "easy": {
+              score = score + 1;
+              break;
+            }
+            case "medium": {
+              score = score + 3;
+              break;
+            }
+            case "hard": {
+              score = score + 5;
+              break;
+            }
+            default: { 
+              break; 
+           }
+          }
+        }
+      });
+
+      for (let i = 0; i<nbPlacesFoundByCat.length; i++) {
+        if (nbPlacesFoundByCat[i]==nbPlacesByCategories[i]) {
+          if (i == 0) {
+            bonus += 20;
+          }
+          else {
+            bonus += 10;
+          }
+        }
+      }
+    }
+    return score + bonus;
+  }
+
   checkPlace(placeId: number): void {
-    console.log("checkPlace ... ", placeId);
     let ids: number[];
 
     let placesStr = localStorage.getItem('IntoZZeWild-placesIds');
 
-    console.log("placesStr = ", placesStr);
-
     if (placesStr != null) {
       ids = JSON.parse(placesStr);
-      console.log("ids before filtering = ", ids);
       ids = ids.filter(id => id !== placeId);
-      console.log("ids after filtering = ", ids);
     } else {
       ids = new Array();
     }
     ids.push(placeId);
 
-    console.log("ids before save = ", ids);
 
     localStorage.setItem('IntoZZeWild-placesIds', JSON.stringify(ids));
   }
