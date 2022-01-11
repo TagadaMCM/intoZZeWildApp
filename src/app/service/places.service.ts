@@ -91,8 +91,6 @@ export class PlacesService {
       ids = new Array();
     }
     ids.push(placeId);
-
-
     localStorage.setItem('IntoZZeWild-placesIds', JSON.stringify(ids));
   }
 

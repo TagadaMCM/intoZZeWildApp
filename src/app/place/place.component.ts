@@ -20,6 +20,8 @@ export class PlaceComponent implements OnInit {
   panelCultureOpenState = false;
   panelMunicipaliteOpenState = false;
 
+  openedPanelId: number;
+
   sponsorsPlaces: Place[] = [];
   sportsPlaces: Place[] = [];
   transportPlaces: Place[] = [];
@@ -75,7 +77,50 @@ export class PlaceComponent implements OnInit {
   }
 
   ngOnInit() {
-
+    this.openedPanelId = +localStorage.getItem('openedPanelId');
+    if (this.openedPanelId != -1) {
+      switch (this.openedPanelId) {
+        case 0: {
+          this.panelSponsorsOpenState = true;
+        }
+        break;
+        case 1:{
+          this.panelSportOpenState = true;
+        }
+        break;
+        case 2:{
+          this.panelTransportOpenState = true;
+        }
+        break;
+        case 3:{
+          this.panelEducationOpenState = true;
+        }
+        break;
+        case 4:{
+          this.panelEspaceOpenState = true;
+        }
+        break;
+        case 5:{
+          this.panelAssociatifOpenState = true;
+        }
+        break;
+        case 6:{
+          this.panelCultureOpenState = true;
+        }
+        break;
+        case 7:{
+          this.panelMunicipaliteOpenState = true;
+        }
+        break;
+      }
+    }
   }
 
+  setOpenedPanelId(state: boolean, id: number) {
+    if (state) {
+      localStorage.setItem('openedPanelId', JSON.stringify(id));
+    } else {
+      localStorage.setItem('openedPanelId', JSON.stringify(-1));
+    }
+  }
 }

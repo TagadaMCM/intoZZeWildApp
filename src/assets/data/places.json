@@ -36,7 +36,7 @@
     "name": "Lieu 5",
     "tip": "assets/data/hint/hint_5.jpg",
     "image": "assets/data/img/place_5.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 1
   },
   {
@@ -44,7 +44,7 @@
     "name": "Lieu 6",
     "tip": "assets/data/hint/hint_6.jpg",
     "image": "assets/data/img/place_6.PNG",
-    "level": "easy",
+    "level": "hard",
     "categoryId": 1
   },
   {
@@ -52,7 +52,7 @@
     "name": "Lieu 7",
     "tip": "assets/data/hint/hint_7.jpg",
     "image": "assets/data/img/place_7.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 1
   },
   {
@@ -140,7 +140,7 @@
     "name": "Lieu 18",
     "tip": "assets/data/hint/hint_18.jpg",
     "image": "assets/data/img/place_18.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 3
   },
   {
@@ -196,7 +196,7 @@
     "name": "Lieu 25",
     "tip": "assets/data/hint/hint_25.jpg",
     "image": "assets/data/img/place_25.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 4
   },
   {
@@ -268,7 +268,7 @@
     "name": "Lieu 34",
     "tip": "assets/data/hint/hint_34.jpg",
     "image": "assets/data/img/place_34.PNG",
-    "level": "hard",
+    "level": "medium",
     "categoryId": 4
   },
   {
@@ -284,7 +284,7 @@
     "name": "Lieu 36",
     "tip": "assets/data/hint/hint_36.jpg",
     "image": "assets/data/img/place_36.PNG",
-    "level": "medium",
+    "level": "easy",
     "categoryId": 5
   },
   {
@@ -340,7 +340,7 @@
     "name": "Lieu 43",
     "tip": "assets/data/hint/hint_43.jpg",
     "image": "assets/data/img/place_43.PNG",
-    "level": "hard",
+    "level": "easy",
     "categoryId": 6
   },
   {
@@ -388,7 +388,7 @@
     "name": "Lieu 49",
     "tip": "assets/data/hint/hint_49.jpg",
     "image": "assets/data/img/place_49.PNG",
-    "level": "medium",
+    "level": "easy",
     "categoryId": 7
   }
 ]
