@@ -1,6 +1,7 @@
 import { FlatTreeControl, NestedTreeControl } from '@angular/cdk/tree';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { MatTreeFlatDataSource, MatTreeFlattener, MatTreeNestedDataSource } from '@angular/material/tree';
+import { ActivatedRoute } from '@angular/router';
 import {Place} from '../model/Place';
 import {PlacesService} from '../service/places.service';
 
@@ -35,7 +36,7 @@ export class PlaceComponent implements OnInit {
   places: Place[];
   score: number;
 
-  constructor(placesService: PlacesService) {
+  constructor(placesService: PlacesService, private route: ActivatedRoute) {
     this.places = placesService.getPlaces();
     this.score = placesService.getScore();
     this.places.forEach(place => {
@@ -77,7 +78,9 @@ export class PlaceComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.openedPanelId = +localStorage.getItem('openedPanelId');
+    //this.openedPanelId = +localStorage.getItem('openedPanelId');
+    
+    this.openedPanelId = +this.route.snapshot.paramMap.get('openedPanelId');
     if (this.openedPanelId != -1) {
       switch (this.openedPanelId) {
         case 0: {
@@ -113,14 +116,6 @@ export class PlaceComponent implements OnInit {
         }
         break;
       }
-    }
-  }
-
-  setOpenedPanelId(state: boolean, id: number) {
-    if (state) {
-      localStorage.setItem('openedPanelId', JSON.stringify(id));
-    } else {
-      localStorage.setItem('openedPanelId', JSON.stringify(-1));
     }
   }
 }
