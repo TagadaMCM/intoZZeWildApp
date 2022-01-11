@@ -38,9 +38,6 @@ export class PlaceDetailsComponent implements OnInit {
     // reload places ...
     const places = this.placeService.getPlaces();
     this.place = places.find(p => p.id === this.id);
-
-    // redirect to the places page
-    this.router.navigate(['/places']);
   }
 
   uncheckPlace(): void {
@@ -49,9 +46,6 @@ export class PlaceDetailsComponent implements OnInit {
     // reload places ...
     const places = this.placeService.getPlaces();
     this.place = places.find(p => p.id === this.id);
-
-    // redirect to the places page
-    this.router.navigate(['/places']);
   }
 
   changeCheckPlace() {
