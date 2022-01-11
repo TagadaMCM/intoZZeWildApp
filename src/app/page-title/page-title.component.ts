@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { PlacesService } from '../service/places.service';
 
 @Component({
   selector: 'app-page-title',
@@ -19,10 +21,18 @@ export class PageTitleComponent implements OnInit {
   @Input()
   idPlace: number;
 
-  constructor() {
+  idCategory: number;
+
+  constructor(private router: Router, private placeService: PlacesService) {
   }
 
   ngOnInit(): void {
+    if (this.number != 0) {
+      this.idCategory = this.placeService.getPlaces().find(place => place.id == this.number).categoryId;
+    }
   }
 
+  goToPlaces() {
+    this.router.navigate(['/places', {openedPanelId: this.idCategory}]);
+  }
 }
