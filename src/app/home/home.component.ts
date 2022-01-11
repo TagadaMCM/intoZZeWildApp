@@ -11,7 +11,6 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    localStorage.setItem('openedPanelId', JSON.stringify(-1));
   }
 
   goToPlaces() {

@@ -78,8 +78,6 @@ export class PlaceComponent implements OnInit {
   }
 
   ngOnInit() {
-    //this.openedPanelId = +localStorage.getItem('openedPanelId');
-    
     this.openedPanelId = +this.route.snapshot.paramMap.get('openedPanelId');
     if (this.openedPanelId != -1) {
       switch (this.openedPanelId) {
