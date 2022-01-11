@@ -18,7 +18,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { PinchZoomModule } from 'ngx-pinch-zoom';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatExpansionModule} from '@angular/material/expansion';
-
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 @NgModule({
   declarations: [
@@ -41,7 +41,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatDialogModule,
     PinchZoomModule,
     MatCheckboxModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
