@@ -1,6 +1,46 @@
 <app-page-title title="map" number="0"></app-page-title>
+<mat-button-toggle-group #group="matButtonToggleGroup" style="width: 100%;">
+    <mat-button-toggle value="difficulty" (change)="onValChange($event.value)" matTooltip="View Message" checked>
+        Difficultés
+    </mat-button-toggle>
+    <mat-button-toggle (change)="onValChange($event.value)" value="category" matTooltip="Message Comment" >
+        Catégories
+    </mat-button-toggle>
+    <mat-button-toggle (change)="onValChange($event.value)" value="zoom" matTooltip="Message Comment" >
+        Zoom zone
+    </mat-button-toggle>
+</mat-button-toggle-group>
 <div class="img-container easy-border">
-    <pinch-zoom style="height: 100%;">
-        <img src="assets/default-image.jpeg" class="logo"/>
+    <pinch-zoom style="height: 100%;" *ngIf="this.filter == 'difficulty'">
+        <img src="assets/data/img/map_difficulties.png" class="logo"/>
     </pinch-zoom>
+    <pinch-zoom style="height: 100%;" *ngIf="this.filter == 'category'">
+        <img src="assets/data/img/map_categories.png" class="logo"/>
+    </pinch-zoom>
+    <div *ngIf="this.filter == 'zoom'">
+        <span class="zoom-map">Zoom Haut Gauche</span>
+        <div class="zoom-img">
+            <pinch-zoom style="height: 100%;">
+                <img src="assets/data/img/carteHG.png" class="logo"/>
+            </pinch-zoom>
+        </div>
+        <span class="zoom-map">Zoom Haut Droite</span>
+        <div class="zoom-img">
+            <pinch-zoom style="height: 100%;">
+                <img src="assets/data/img/carteHD.png" class="logo"/>
+            </pinch-zoom>
+        </div>
+        <span class="zoom-map">Zoom Bas Gauche</span>
+        <div class="zoom-img">
+            <pinch-zoom style="height: 100%;">
+                <img src="assets/data/img/carteBG.png" class="logo"/>
+            </pinch-zoom>
+        </div>
+        <span class="zoom-map">Zoom Bas Droite</span>
+        <div class="zoom-img">
+            <pinch-zoom style="height: 100%;">
+                <img src="assets/data/img/carteBD.png" class="logo"/>
+            </pinch-zoom>
+        </div>
+    </div>
 </div>
