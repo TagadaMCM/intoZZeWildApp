@@ -27,7 +27,7 @@ export class PageTitleComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    if (this.number != 0) {
+    if (this.number != undefined && this.number != 0) {
       this.idCategory = this.placeService.getPlaces().find(place => place.id == this.number).categoryId;
     }
   }
